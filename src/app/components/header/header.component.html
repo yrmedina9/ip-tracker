@@ -1,0 +1,7 @@
+<header class="header">
+    <h3>IP Address Tracker</h3>
+    <form (submit)="trackIP($event)">
+        <input type="text" placeholder="Search for any IP address or domain" name="input-ip" [(ngModel)]="ipAddress">
+        <button type="submit" id="search">></button>
+    </form>
+</header>

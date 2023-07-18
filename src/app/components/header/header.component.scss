@@ -1,0 +1,37 @@
+header {
+  background: url("../../../assets/images/pattern-bg.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 26px;
+  padding: 25px 0px;
+  margin-top: 10px;
+}
+form {
+  margin-bottom: 100px;
+  display: flex;
+}
+input {
+  padding: 16px;
+  width: 450px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+button {
+  border: none;
+  padding: 13px 20px;
+  margin-left: -5px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: black;
+  color: #fff;
+  font-size: 22px;
+}

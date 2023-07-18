@@ -1,0 +1,18 @@
+<div class="result-container">
+    <div class="result-col">
+        <h2>IP ADDRESS</h2>
+        <p>{{ipDetails.ip}}</p>
+    </div>
+    <div class="result-col">
+        <h2>LOCATION</h2>
+        <p>{{getAddress()}}</p>
+    </div>
+    <div class="result-col">
+        <h2>TIMEZONE</h2>
+        <p>{{ipDetails.time_zone.abbreviation}} {{getTzOffset()}}</p>
+    </div>
+    <div class="result-col">
+        <h2>ISP</h2>
+        <p>{{ipDetails.company.domain}}</p>
+    </div>
+</div>
